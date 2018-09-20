@@ -5,6 +5,10 @@ when sending the following url **?=bug** every parameter will get filled with th
 
 ![bug example ?=bug](example-bug.png)
 
+sending **?=bug&b=test** will give all* parameters bug and the value for `b` will be `test`
+
+![bug example ?=bug](example-bug-test.png)
+
 sending a empty pair like **?=** results in
 
 ![bug example ?=](example-empty-kvp.png)
